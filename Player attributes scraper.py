@@ -12,7 +12,7 @@ import random
 
 
 # Path to the ChromeDriver executable
-chrome_driver_path = "C:/Users/Natha/Downloads/chromedriver-win64/chromedriver-win64/chromedriver.exe"
+chrome_driver_path = 
 
 try:
     # Set up the WebDriver
@@ -74,14 +74,14 @@ except Exception as e:
 
 # Define headers to mimic a browser request
 headers_browser = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    'User-Agent': 
 }
 
 # Connect to the database
 database_type = 'mysql'
 database_driver = 'mysqlconnector'
 username = 'root'
-password = 'hokeyP0key1'
+password = 
 host = 'localhost'
 port = '3306'
 database_name = 'nrl_data'
